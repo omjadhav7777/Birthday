@@ -59,7 +59,7 @@ export default function SpecialCards({ next, audioRef }) {
                 <video
                     controls
                     className="special-video"
-
+                    preload="metadata"
                     onPlay={() => {
 
                         console.log("VIDEO PLAYED");
@@ -98,7 +98,7 @@ export default function SpecialCards({ next, audioRef }) {
                 <video
                     controls
                     className="special-video"
-
+                    preload="metadata"
                     onPlay={() => {
 
                         console.log("VIDEO PLAYED");
